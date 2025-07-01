@@ -1,0 +1,105 @@
+@font-face {
+	font-family: "Retro";
+	src: url('Retro.otf') format('opentype');
+}
+
+* {
+	  font-family: "Retro", sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+h1 {
+	text-align: center;
+	color:	#604055;
+	
+}
+
+.no-bullets{
+        list-style-type: none;
+    }
+
+#PomodoroContainer{
+	padding: 5%;
+	margin: 5%;
+}
+#TopNavBar{
+text-align: center;
+}
+#ToDoListcontainer button{
+text-align: center;}
+#TaskInputForm{
+	background-color:#1d1e3c;
+	border-radius: 15px;   /* Rounded corners */
+    padding: 20px;         /* Padding inside the div */
+    text-align: center;    /* Center the text */
+	margin: 1%;
+	Padding: 1%;
+	color:  	#d5754d;
+}
+#ToDoListcontainer{
+	background-color: #604055;
+	border-radius: 15px;   /* Rounded corners */
+    padding: 20px;         /* Padding inside the div */
+    text-align: center;    /* Center the text */
+	margin: 1%;
+	Padding: 1%;
+	color:  	#d5754d;
+}
+#ToDoListcontainer ul{
+text-align: left;
+}
+
+#TaskBlock{
+	background-color:  #995957;
+	border-radius: 15px;   /* Rounded corners */
+    padding: 20px;         /* Padding inside the div */
+    text-align: center;    /* Center the text */
+	margin: 1%;
+	Padding: 1%;
+		color:  	#d5754d;
+	
+}
+
+#TaskBlock:hover {
+    background-color: #d5754d; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    transform: scale(1.05); /* Slightly enlarge the element */
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+}
+#ToDoListcontainer:hover {
+    background-color: #d5754d; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    transform: scale(1.05); /* Slightly enlarge the element */
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+}
+#TaskInputForm:hover {
+    background-color: #d5754d; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    transform: scale(1.05); /* Slightly enlarge the element */
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+}
+
