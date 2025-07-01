@@ -9,56 +9,55 @@
 </head>
 <body>
 	<div class="video-background">
-    <video autoplay loop muted>
-        <source src="background-video.mp4" type="video/mp4">
-        <source src="background-video.webm" type="video/webm">
-        Your browser does not support the video tag.
-    </video>
-</div>
-
+    	<video autoplay loop muted>
+			<!--source src="background-video.mp4" type="video/mp4"-->
+        	<source src="background-video.webm" type="video/webm">
+        	Your browser does not support the video tag.
+    	</video>
+	</div>
 	<h1>Simple Pomodoro</h1> 
 		<div id='TopNavBar'>
 			<a href='#'> About</a>
 			<a href='#'> Contact</a>
 		</div>
-	<div id="PomodoroContainer">
 	
-		
-		<div id='TaskInputForm'>
-			<form>
-			<label for="fTaskName"> Task Name: </label><br>
-			<input type="text" id="fTaskName" value="Think of Tasks"><br>
-			<label for="fTaskDuration">Task Duration (minutes):</label><br>
-			<input type="number" id="fTaskDuration" value="5" min="5" step="5"><br>
-
-			<label for="fAddToListBtn"> Add to List </label><br>
-			<input type="submit" value="Add to List" id="submitBtn">
-			</form>
-		</div>
+		<div id="PomodoroContainer">
+	
+			<div id='TaskInputForm'>
+				<form>
+				<label for="fTaskName"> Task Name: </label><br>
+				<input type="text" id="fTaskName" value="Think of Tasks"><br>
+				<label for="fTaskDuration">Task Duration (minutes):</label><br>
+				<input type="number" id="fTaskDuration" value="5" min="5" step="5"><br>
+				<label for="fAddToListBtn"> Add to List </label><br>
+				<input type="submit" value="Add to List" id="submitBtn">
+				</form>
+			</div>
 		
 		<div id='ToDoListcontainer'>
-		<h2>To Do List</h2>
+			<h2>To Do List</h2>
 				<ul class="no-bullets" id="taskList">
-				 <li><input type="checkbox" ><label >Touch Grass</label></li>
-
-				<!-- Tasks will be added here -->
+					
+					<li><input type="checkbox" id="task example"><label >Touch Grass</label></li>
+					<!-- Tasks will be added here -->
+				
 				</ul>
+				
 				<button class="ToDolistContrainerBtn" type="button" id="clearListBtn">Clear List</button>
 				<button class="ToDolistContrainerBtn" type="button" id="startListTaskBtn">Start Selected Task</button>
 						
 		</div>
-		
 
 		<div id='TaskBlock'>
 		
-		<label id='fTimerLabel'> Minutes remaining: 0 </label><br>
-		<button id="StartTimerBtnShort">Short Session - 5 min</button>
-		<button id="StartTimerBtnMed">Short Session - 15 min</button>
-		<button id="StartTimerBtnLong">Short Session - 30 min</button><br>
-		<label id='fTimeLeft'> --- </label>
+			<label id='fTimerLabel'> Minutes remaining: 0 </label><br>
+			<button id="StartTimerBtnShort">Short Session - 5 min</button>
+			<button id="StartTimerBtnMed">Short Session - 15 min</button>
+			<button id="StartTimerBtnLong">Short Session - 30 min</button><br>
+			<label id='fTimeLeft'> --- </label>
+
+		</div>
 	</div>
-	</div>
-	<div>
 
     <script src="index.js"></script>
 </body>

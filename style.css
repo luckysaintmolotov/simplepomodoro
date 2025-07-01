@@ -4,14 +4,16 @@
 }
 
 * {
-	  font-family: "Retro", sans-serif;
+	font-family: "Retro", sans-serif;
 }
+
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
     overflow: hidden;
+    font-size: 28px;
 }
 
 .video-background {
@@ -43,11 +45,12 @@ h1 {
     }
 
 #PomodoroContainer{
-	padding: 5%;
-	margin: 5%;
+	padding: 1.5%;
+	margin: 1.5%;
 }
 #TopNavBar{
 text-align: center;
+
 }
 #ToDoListcontainer button{
 text-align: center;}
@@ -72,7 +75,6 @@ text-align: center;}
 #ToDoListcontainer ul{
 text-align: left;
 }
-
 #TaskBlock{
 	background-color:  #995957;
 	border-radius: 15px;   /* Rounded corners */
@@ -83,7 +85,6 @@ text-align: left;
 		color:  	#d5754d;
 	
 }
-
 #TaskBlock:hover {
     background-color: #d5754d; /* Change background color on hover */
     color: white; /* Change text color on hover */
