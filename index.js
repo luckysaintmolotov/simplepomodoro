@@ -1,5 +1,5 @@
         let taskCounter = 2; // Start from 2 since we already have 1 item in the list
-
+        // Add task to list functionality
         document.getElementById('TaskInputForm').addEventListener('submit', function(event) {
             event.preventDefault(); // Prevent the form from submitting
 
@@ -30,6 +30,7 @@
             document.getElementById('fTaskName').value = 'Think Of a Task';
             document.getElementById('fTaskDuration').value = 5; // Reset to default
         });
+
 		// Clear List functionality
         document.getElementById('clearListBtn').addEventListener('click', function() {
             const taskList = document.getElementById('taskList');
