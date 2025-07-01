@@ -52,7 +52,7 @@ h1 {
 text-align: center;
 
 }
-#ToDoListcontainer button{
+#ToDoListContainer button{
 text-align: center;}
 #TaskInputForm{
 	background-color:#1d1e3c;
@@ -63,7 +63,7 @@ text-align: center;}
 	Padding: 1%;
 	color:  	#d5754d;
 }
-#ToDoListcontainer{
+#ToDoListContainer{
 	background-color: #604055;
 	border-radius: 15px;   /* Rounded corners */
     padding: 20px;         /* Padding inside the div */
@@ -72,7 +72,7 @@ text-align: center;}
 	Padding: 1%;
 	color:  	#d5754d;
 }
-#ToDoListcontainer ul{
+#ToDoListContainer ul{
 text-align: left;
 }
 #TaskBlock{
@@ -91,7 +91,7 @@ text-align: left;
     transform: scale(1.05); /* Slightly enlarge the element */
     transition: all 0.3s ease; /* Smooth transition for the hover effect */
 }
-#ToDoListcontainer:hover {
+#ToDoListContainer:hover {
     background-color: #d5754d; /* Change background color on hover */
     color: white; /* Change text color on hover */
     transform: scale(1.05); /* Slightly enlarge the element */
